@@ -5,10 +5,54 @@ body{
 	font-family: segoe-ui_light, segoe UI Light, SegoeWP, Helvetica Neue, Helvetica, sans-serif; 
 	color: #526573;
 }
+
 header{
 	padding: 6px 0;
-	background-color: #2ca6b1;
+	background-color: #2ca6b0;
 }
 
+.container{
+	width: 800px;
+	margin:0 auto;
+	overflow: hidden;
+}
 
-<!-- this is the newest commit -->
+ul{
+	list-style: none;
+	overflow: hidden;
+	padding:0;
+	margin:0;
+
+}
+li {
+	float: left;
+	width: 50%;
+
+}
+.logo{
+	width: 231px;
+	height: 48px;
+	background: url(img/logo.png) center center no-repeat;
+}
+
+.phone-number{
+	float: right;
+	color: white;
+}
+
+.phone-number .icon{
+	width:30px;
+	height:20px;
+	margin-top:14px;
+	float: left;
+	background: url(img/phone.png) center center no-repeat;
+
+}
+.phone-number .text {
+	display:inline-block;
+	margin-top: 11px;
+	margin-left:10px;
+	font-size:17px;
+
+}
+<!-- this is the 8:02 commit -->
