@@ -118,5 +118,37 @@ p{
 	background:rbga(143, 185, 205, .15);
 	margin: 15px 0 0 0;
 }
+section.after-content{
+	overflow: hidden;
+	margin:50px 0 0 0 ; 
+	padding:80px 0;
+	color:white;
+	background: url(http://aai-inc.com/wp-content/uploads/2016/07/AAI-Banners-O2Login-1.jpg); <<!!! FIX ME LATER
+}
+h2{
+	margin:0 0 -10px 0;
+	text-align: center;
+	font-size: 26px;
 
-<!-- this is the 8:02 commit -->
+}
+form-elements{
+	padding: 20px 0 0 0;
+	width: 760px;
+	margin: 20px auto 0 auto;
+
+}
+form {
+	margin: 0;
+}
+input, select {
+	padding: 12px;
+	margin-right: 10px;
+	border:1px solid #333;
+	color: #747474;
+}
+button:{
+	color: white;
+	padd
+}
+
+<!-- this is the 2:31 commit -->
