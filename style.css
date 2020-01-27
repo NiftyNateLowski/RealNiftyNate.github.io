@@ -1,3 +1,4 @@
+<!-- this is the 10:32 commit -->
 
 body{
 	margin:0;
@@ -11,11 +12,7 @@ header{
 	background-color: #2ca6b0;
 }
 
-.container{
-	width: 1000px;
-	margin:0 auto;
-	overflow: hidden;
-}
+
 
 ul{
 	list-style: none;
@@ -103,7 +100,7 @@ h3 {
 	
 }
 p{
-	padding:; 0 50px;
+	padding: 0 50px;
 	text-align:center;
 	margin-top: 30px;
 	font-weight: 600;
@@ -131,24 +128,53 @@ h2{
 	font-size: 26px;
 
 }
-form-elements{
-	padding: 20px 0 0 0;
+.container{
+	width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.form-elements {
+	padding: 0px 0 0 0;
 	width: 760px;
-	margin: 20px auto 0 auto;
-
+	margin: 0px auto 0 auto;
 }
 form {
-	margin: 0;
+		margin: 0;
+
 }
 input, select {
 	padding: 12px;
 	margin-right: 10px;
-	border:1px solid #333;
+	border: 1px solid #333;
 	color: #747474;
 }
-button:{
+button {
 	color: white;
-	padd
+	padding: 13px;
+	background-color: #2ca6b0;
+	border: 1px solid #aaccd9;
+	border-radius: 5px;
+	
 }
-
-<!-- this is the 2:31 commit -->
+.terms {
+	text-align:center;
+	margin-top: 10px;
+	font-size: 10px;
+}
+footer {
+	padding:20px;
+	background-color: #263238;
+	color: #b5b5b5;
+	border-top: 1px solid ##2ca6b0;
+}
+footer .left, footer .right {
+	float: left;
+	font-size: 50%;
+}
+footer .right {
+	text-align: right;
+	float:right;
+}
+.fm{
+text-align: center;
+}
